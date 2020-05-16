@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.852
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloundMusic2.0", "CloundMusic2.0\CloundMusic2.0.csproj", "{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestApi", "UnitTestApi\UnitTestApi.csproj", "{30943119-E3DF-4AE9-AA1B-E63E70D48581}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		AOT_Debug|Any CPU = AOT_Debug|Any CPU
+		AOT_Release|Any CPU = AOT_Release|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		JIT_Debug|Any CPU = JIT_Debug|Any CPU
+		JIT_Release|Any CPU = JIT_Release|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.AOT_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.AOT_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.AOT_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.AOT_Release|Any CPU.Build.0 = Release|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.JIT_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.JIT_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.JIT_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.JIT_Release|Any CPU.Build.0 = Release|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57CA14B-85AE-4727-BF97-4E0BF7FDA100}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.AOT_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.AOT_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.AOT_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.AOT_Release|Any CPU.Build.0 = Release|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.JIT_Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.JIT_Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.JIT_Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.JIT_Release|Any CPU.Build.0 = Release|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30943119-E3DF-4AE9-AA1B-E63E70D48581}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C07B8477-FF8A-4EEF-9709-E0CB78834F07}
+	EndGlobalSection
+EndGlobal

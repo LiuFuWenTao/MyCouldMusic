@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="CloundMusic2._0.RecordUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:CloundMusic2._0"
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="400">
+    <Grid Background="Transparent" Height="400" Width="400">
+
+        <Ellipse  Fill="Red" HorizontalAlignment="Center" Height="300" Margin="0,80,0,0" 
+                 VerticalAlignment="Center" Width="300" />
+        <Ellipse Fill="Yellow" HorizontalAlignment="Center" Height="290" Margin="0,80,0,0" 
+                 VerticalAlignment="Center" Width="290"/>
+        <Ellipse Fill="Blue" HorizontalAlignment="Center" Height="280" Margin="0,80,0,0" 
+                 VerticalAlignment="Center" Width="280" />
+        <Border  Height="270" Width="270"  Margin="0,80,0,0" CornerRadius="135 135 135 135"  >
+            <Border.Background>
+                <ImageBrush  ImageSource="/Views/Images/SingerImg/不知名歌手.jpg" Stretch="Fill" />
+            </Border.Background>
+        </Border>
+         
+        
+    </Grid>
+</UserControl>
