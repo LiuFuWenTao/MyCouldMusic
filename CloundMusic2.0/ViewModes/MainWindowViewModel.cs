@@ -37,7 +37,7 @@ namespace CloundMusic2._0.ViewModes
         /// </summary>
         protected override void InitViewModel()
         {
-            
+            //增加一个懂得测试
         }
         /// <summary>
         /// 卸载界面
