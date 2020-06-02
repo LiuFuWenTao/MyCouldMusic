@@ -24,8 +24,17 @@
                 <ColumnDefinition Width="0.5*"/>
                 <ColumnDefinition Width="0.5*"/>
             </Grid.ColumnDefinitions>
-            <local:RecordUserControl/>
-            <Frame  Grid.Row="0" x:Name="MainFrame" NavigationUIVisibility="Hidden" JournalOwnership="UsesParentJournal" />
+            <TextBox Height="50" Width="300" Background="Yellow" VerticalAlignment="Top"/>
+            <Button Content="播放1" HorizontalAlignment="Right" Height="58" 
+                    VerticalAlignment="Top" Width="161" Command="{Binding SearchMusicCommand}"/>
+            <!--<local:RecordUserControl/>-->
+            <MediaElement Name="McMediaElement"  LoadedBehavior="Manual" Grid.Column="1" />
+
+            <Frame  Grid.Row="0" x:Name="MainFrame" NavigationUIVisibility="Hidden" JournalOwnership="UsesParentJournal" Grid.Column="1" Margin="10,10,-10,-10" />
+            <Button Content="播放1" HorizontalAlignment="Left" Height="58" Margin="148,1085,0,-63" 
+                    VerticalAlignment="Top" Width="161" Click="Button_Click_1"/>
+            <Button Content="播放2" HorizontalAlignment="Left" Height="58" Margin="431,1085,0,-63" 
+                    VerticalAlignment="Top" Width="161" Click="Button_Click_2"/>
         </Grid>
     </Viewbox>
 </Window>
