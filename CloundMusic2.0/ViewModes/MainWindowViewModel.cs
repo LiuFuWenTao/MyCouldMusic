@@ -1,10 +1,14 @@
 ﻿using CloundMusic2._0.Base;
+using CloundMusic2._0.Helper;
+using CloundMusic2._0.Manager;
 using GalaSoft.MvvmLight;
+using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Input;
 
 namespace CloundMusic2._0.ViewModes
 {
@@ -21,13 +25,56 @@ namespace CloundMusic2._0.ViewModes
         #endregion
 
         #region 视图属性
+        private string musicKeyWord = string.Empty;
+        /// <summary>
+        /// 搜索音乐的关键字
+        /// </summary>
+        public string MusicKeyWord
+        {
+            get { return this.musicKeyWord; }
+            set
+            {
+                if(this.musicKeyWord != value)
+                {
+                    this.musicKeyWord = value;
+                    base.RaisePropertyChanged("MusicKeyWord");
+                }
+            }
+        }
         #endregion
 
 
         #region Commands
+        private ICommand searchMusicCommand;
+        /// <summary>
+        /// 通过关键字搜索音乐
+        /// </summary>
+        public ICommand SearchMusicCommand
+        {
+            get
+            {
+                if (this.searchMusicCommand == null)
+                {
+                    this.searchMusicCommand = new RelayCommand(() =>
+                    {
+                        SearchMusic();
+                    });
+                }
+                return this.searchMusicCommand;
+            }
+            private set { }
+        }
         #endregion
 
-        #region 保护方法
+        #region 核心方法
+        /// <summary>
+        /// 通过关键字搜索音乐
+        /// </summary>
+        public async void SearchMusic()
+        {
+            Logger.Log($"开始搜索音乐，音乐的关键字是{MusicKeyWord}");
+            var reslut = await MusicManager.MusicApi.SearchMusic(MusicKeyWord);
+        }
         #endregion
 
 

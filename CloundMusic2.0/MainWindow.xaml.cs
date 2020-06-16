@@ -48,5 +48,24 @@ namespace CloundMusic2._0
                 
             }
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            ////用MediaPlayer类进行播放
+            //MediaPlayer player = new MediaPlayer();
+            //player.Open(new Uri(Environment.CurrentDirectory + "\\music.mp3", UriKind.Relative));
+            //VideoDrawing aVideoDrawing = new VideoDrawing();
+            //aVideoDrawing.Rect = new Rect(0, 0, 100, 100);
+            //aVideoDrawing.Player = player;
+
+            //player.Play();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            //用MediaElement控件进行播放
+            McMediaElement.Source = new Uri(Environment.CurrentDirectory + "\\Music\\刷身份证登录页面倒计时卡死.mp4");
+            McMediaElement.Play();
+        }
     }
 }

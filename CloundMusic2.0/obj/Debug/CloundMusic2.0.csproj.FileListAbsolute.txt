@@ -48,3 +48,8 @@ D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\obj\Debug\GeneratedIntern
 D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\obj\Debug\App.baml
 D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\obj\Debug\RecordUserControl.g.cs
 D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\obj\Debug\RecordUserControl.baml
+D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\obj\Debug\Interop.MediaPlayer.dll
+D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\obj\Debug\CloundMusic2.0.csproj.ResolveComReference.cache
+D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\bin\Debug\Invengo.Library.ILog.dll
+D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\bin\Debug\Invengo.Library.IConfiguration.dll
+D:\自己的项目\repos\CloundMusic2.0\CloundMusic2.0\bin\Debug\Invengo.Library.XmlConfigration.dll

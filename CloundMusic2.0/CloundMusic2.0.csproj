@@ -43,6 +43,9 @@
     <Reference Include="GalaSoft.MvvmLight.Extras">
       <HintPath>..\Lib\MvvmLightLib\GalaSoft.MvvmLight.Extras.dll</HintPath>
     </Reference>
+    <Reference Include="Invengo.Library.ILog">
+      <HintPath>..\Lib\Invengo.Library.ILog.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
@@ -87,6 +90,10 @@
     <Compile Include="Core\CommunalVariable.cs" />
     <Compile Include="Core\NavigationService.cs" />
     <Compile Include="Helper\FindControlHelper.cs" />
+    <Compile Include="Helper\Logger.cs" />
+    <Compile Include="Manager\MusicManager.cs" />
+    <Compile Include="Manager\PlayerManager.cs" />
+    <Compile Include="Manager\UserManager.cs" />
     <Compile Include="RecordUserControl.xaml.cs">
       <DependentUpon>RecordUserControl.xaml</DependentUpon>
     </Compile>
@@ -149,6 +156,26 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Images\SingerImg\不知名歌手.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
