@@ -13,9 +13,9 @@ namespace CloundMusic2._0.Manager
     /// 音乐接口管理类
     /// 负责管理音乐类的接口调用
     /// </summary>
-    public static class MusicManager
+    public class MusicManager
     {
-        static MusicManager()
+        public MusicManager()
         {
             HttpApiConfig httpApiConfig = new HttpApiConfig();
             httpApiConfig.HttpHost = new Uri("http://music.rexhuang.top/");

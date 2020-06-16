@@ -92,6 +92,8 @@
     <Compile Include="Helper\FindControlHelper.cs" />
     <Compile Include="Helper\Logger.cs" />
     <Compile Include="Manager\MusicManager.cs" />
+    <Compile Include="Manager\PlayerManager.cs" />
+    <Compile Include="Manager\UserManager.cs" />
     <Compile Include="RecordUserControl.xaml.cs">
       <DependentUpon>RecordUserControl.xaml</DependentUpon>
     </Compile>
