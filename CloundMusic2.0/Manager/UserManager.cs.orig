@@ -100,9 +100,11 @@ namespace CloundMusic2._0.Model
         #region 方法
         public void SearchMusic(string keywords)
         {
+<<<<<<< HEAD
+            //修改功能1
+=======
             //修改功能2
-		    //修改功能1
-
+>>>>>>> devTest2
         }
         #endregion
 
