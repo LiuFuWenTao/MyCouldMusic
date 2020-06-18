@@ -1,5 +1,4 @@
-﻿using CloudMusic.CloudApi.IApi;
-using CloundMusic2._0.CloudApi.IApi;
+﻿using CloundMusic2._0.CloudApi.IApi;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,19 +9,18 @@ using WebApiClient;
 namespace CloundMusic2._0.Manager
 {
     /// <summary>
-    /// 音乐接口管理类
-    /// 负责管理音乐类的接口调用
+    /// 接口管理者，对外提供接口的操作方式
     /// </summary>
-    public class MusicManager : IMusicMananger
+    public class CloundMusicApiManager
     {
         public static IMusicApi MusicApi { get; set; }
-        public MusicManager()
+        public CloundMusicApiManager()
         {
             HttpApiConfig httpApiConfig = new HttpApiConfig();
             httpApiConfig.HttpHost = new Uri("http://music.rexhuang.top/");
             MusicApi = HttpApiClient.Create<IMusicApi>(httpApiConfig);
         }
-       
+
 
     }
 }

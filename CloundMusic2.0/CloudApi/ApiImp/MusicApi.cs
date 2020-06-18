@@ -8,7 +8,7 @@ using WebApiClient;
 
 namespace CloundMusic2._0.CloudApi.ApiImp
 {
-    public class MusicApi 
+    public class MusicApi
     {
 
 
@@ -110,6 +110,8 @@ namespace CloundMusic2._0.CloudApi.ApiImp
             // TODO: 如果在以上内容中替代了终结器，则取消注释以下行。
             // GC.SuppressFinalize(this);
         }
+
+        
         #endregion
     }
 }
