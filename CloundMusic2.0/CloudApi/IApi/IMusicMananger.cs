@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CloundMusic2._0.CloudApi.IApi
 {
-    interface IMusicMananger
+    public interface IMusicMananger
     {
     }
 }

@@ -87,10 +87,14 @@
     </ApplicationDefinition>
     <Compile Include="Base\CloundViewModelBase.cs" />
     <Compile Include="CloudApi\ApiImp\MusicApi.cs" />
+    <Compile Include="CloudApi\IApi\IMusicMananger.cs" />
+    <Compile Include="CloudApi\IApi\IPlayerMananger.cs" />
+    <Compile Include="CloudApi\IApi\IUserManager.cs" />
     <Compile Include="Core\CommunalVariable.cs" />
     <Compile Include="Core\NavigationService.cs" />
     <Compile Include="Helper\FindControlHelper.cs" />
     <Compile Include="Helper\Logger.cs" />
+    <Compile Include="Manager\CloundMusicApiManager.cs" />
     <Compile Include="Manager\MusicManager.cs" />
     <Compile Include="Manager\PlayerManager.cs" />
     <Compile Include="Manager\UserManager.cs" />
