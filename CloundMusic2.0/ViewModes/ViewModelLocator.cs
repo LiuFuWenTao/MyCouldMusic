@@ -19,6 +19,7 @@ namespace CloundMusic2._0.ViewModes
             SimpleIoc.Default.Register<CommunalVariable>();
 
             SimpleIoc.Default.Register<MainWindowViewModel>();
+            SimpleIoc.Default.Register<I>
         }
 
         #region VM业务逻辑VM
