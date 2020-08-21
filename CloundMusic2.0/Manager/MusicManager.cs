@@ -14,7 +14,7 @@ namespace CloundMusic2._0.Manager
     /// </summary>
     public class MusicManager : IMusicMananger
     {
-       
+        public MusicManager _Instance;
 
     }
 }
