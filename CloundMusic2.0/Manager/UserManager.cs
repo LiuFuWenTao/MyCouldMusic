@@ -8,101 +8,35 @@ using System.Threading.Tasks;
 namespace CloundMusic2._0.Model
 {
     /// <summary>
-    /// 用户类，保存用户信息，允许用户执行相应的操作
+    /// 用户管理者
     /// </summary>
-    public class User
+    public class UserManager:IUserManager
     {
-        #region 属性
-
-        
-        private string _name;
-        /// <summary>
-        /// 用户名
-        /// </summary>
-        public string _Name
+        private IUserApi serverUser = new ServerManagerFactory().BuildUserServerManager();
+        // public User currentUser;
+        public UserManager()
         {
-            get { return this._name; }
-            set
-            {
-                if (this._name != value)
-                {
-                    this._name = value;
-                }
-            }
+            
         }
-
-        private string _password;
-        /// <summary>
-        /// 用户密码
-        /// </summary>
-        public string _Password
-        {
-            get { return this._password; }
-            set
-            {
-                if (this._password != value)
-                {
-                    this._password = value;
-                }
-            }
-        }
-
-        private string _nickName;
-        /// <summary>
-        /// 昵称
-        /// </summary>
-        public string _NickName
-        {
-            get
-            {
-                return this._nickName;
-            }
-            set
-            {
-                if (this._nickName != value)
-                {
-                    this._nickName = value;
-                }
-            }
-        }
-
-        private List<MusicManager> _historyMusicList;
-        /// <summary>
-        /// 历史记录列表
-        /// 
-        /// </summary>
-        public List<MusicManager> _HistoryMusicList
-        {
-            get { return this._historyMusicList; }
-            set { if (this._historyMusicList != value)
-                {
-                    this._historyMusicList = value;
-                } }
-        }
-        private List<MusicManager> _favouriteMusicList;
-        /// <summary>
-        /// 最爱列表
-        /// </summary>
-        public List<MusicManager> _FavouriteMusicList
-        {
-            get { return this._favouriteMusicList; }
-            set
-            {
-                if (this._favouriteMusicList != value)
-                {
-                    this._favouriteMusicList = value;
-                }
-            }
-        }
-        #endregion
-
-
-        #region 方法
-        public void SearchMusic(string keywords)
+        ///加入歌单
+        ///传入音乐id和歌单id
+        ///但其实这个东西是调用服务器接口实现，本身并不本地处理，
+        ///不过暂时如此吧，后续在准备一份本地化的接口，正好我的设计模式兼容这个情况
+        public void AddToSongSheet(string musicId, string sheetId)
         {
 
         }
-        #endregion
 
+        ///删除歌单
+        public void DeleteSheet(string sheetId)
+        {
+
+        }
+
+        ///从歌单移除对应的歌曲
+        public void DeleteMusicFromSheet(string musicId, string sheetId)
+        {
+
+        }
     }
 }

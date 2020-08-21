@@ -19,6 +19,7 @@ namespace CloundMusic2._0.Manager
             HttpApiConfig httpApiConfig = new HttpApiConfig();
             httpApiConfig.HttpHost = new Uri("http://music.rexhuang.top/");
             MusicApi = HttpApiClient.Create<IMusicApi>(httpApiConfig);
+            
         }
 
 
