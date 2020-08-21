@@ -9,7 +9,9 @@ namespace CloundMusic2._0.SystemDefinitions
     public class ViewNames
     {
         #region 界面
-        public const string MAIN_WINDOWS = "MainWindow";
+        public const string MAINWINDOWS = "MainWindow";
+
+        public const string HOMEPAGE = "HomePage";
         #endregion
     }
 }

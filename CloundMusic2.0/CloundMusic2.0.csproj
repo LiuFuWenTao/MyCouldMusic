@@ -87,23 +87,42 @@
     </ApplicationDefinition>
     <Compile Include="Base\CloundViewModelBase.cs" />
     <Compile Include="CloudApi\ApiImp\MusicApi.cs" />
-    <Compile Include="CloudApi\IApi\IMusicMananger.cs" />
     <Compile Include="CloudApi\IApi\IPlayerMananger.cs" />
-    <Compile Include="CloudApi\IApi\IUserManager.cs" />
     <Compile Include="Core\CommunalVariable.cs" />
     <Compile Include="Core\NavigationService.cs" />
+    <Compile Include="Factroy\MusicManagerFactory.cs" />
+    <Compile Include="Factroy\ServerManagerFactory.cs" />
+    <Compile Include="Factroy\UserManagerFactory.cs" />
     <Compile Include="Helper\FindControlHelper.cs" />
     <Compile Include="Helper\Logger.cs" />
+    <Compile Include="Interface\IMusicManager.cs" />
+    <Compile Include="Interface\IUserManager.cs" />
     <Compile Include="Manager\CloundMusicApiManager.cs" />
     <Compile Include="Manager\MusicManager.cs" />
     <Compile Include="Manager\PlayerManager.cs" />
     <Compile Include="Manager\UserManager.cs" />
+    <Compile Include="Model\Comment.cs" />
+    <Compile Include="Model\Music.cs" />
+    <Compile Include="Model\User.cs" />
     <Compile Include="RecordUserControl.xaml.cs">
       <DependentUpon>RecordUserControl.xaml</DependentUpon>
     </Compile>
     <Compile Include="SystemDefinitions\ViewNames.cs" />
+    <Compile Include="UserControl\PlayerUserControl.xaml.cs">
+      <DependentUpon>PlayerUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\RecordUserControl.xaml.cs">
+      <DependentUpon>RecordUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\SearchUserControl.xaml.cs">
+      <DependentUpon>SearchUserControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ViewModes\HomeViewModel.cs" />
     <Compile Include="ViewModes\MainWindowViewModel.cs" />
     <Compile Include="ViewModes\ViewModelLocator.cs" />
+    <Compile Include="Views\HomePage.xaml.cs">
+      <DependentUpon>HomePage.xaml</DependentUpon>
+    </Compile>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -122,6 +141,22 @@
     <Page Include="RecordUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\PlayerUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\RecordUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="UserControl\SearchUserControl.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\HomePage.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
@@ -156,6 +191,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="MusicCash\" />
     <Folder Include="Util\" />
   </ItemGroup>
   <ItemGroup>

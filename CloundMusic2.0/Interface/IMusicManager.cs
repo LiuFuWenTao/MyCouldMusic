@@ -1,3 +1,7 @@
+/// <summary>
+/// 音乐接口
+/// 
+/// </summary>
 public interface IMusicManager
 {
     ///找寻某一首歌曲，输入关键字，返回一个音乐实体列表，
