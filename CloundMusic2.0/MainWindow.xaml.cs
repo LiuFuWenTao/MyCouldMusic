@@ -29,43 +29,5 @@ namespace CloundMusic2._0
             InitializeComponent();
            
         }
-
-        private async void Button_Click(object sender, RoutedEventArgs e)
-        {
-            try
-            {
-                HttpApiConfig httpApiConfig = new HttpApiConfig();
-                httpApiConfig.HttpHost = new Uri("http://music.rexhuang.top/");
-                var myWebApi = HttpApiClient.Create<IMusicCloundApi>(httpApiConfig);
-                var s = await myWebApi.GetMusicTpye();
-                MusicTpyeModel model = JsonConvert.DeserializeObject<MusicTpyeModel>(s);
-
-
-            }
-            catch (Exception ex)
-            {
-
-                
-            }
-        }
-
-        private void Button_Click_1(object sender, RoutedEventArgs e)
-        {
-            ////用MediaPlayer类进行播放
-            //MediaPlayer player = new MediaPlayer();
-            //player.Open(new Uri(Environment.CurrentDirectory + "\\music.mp3", UriKind.Relative));
-            //VideoDrawing aVideoDrawing = new VideoDrawing();
-            //aVideoDrawing.Rect = new Rect(0, 0, 100, 100);
-            //aVideoDrawing.Player = player;
-
-            //player.Play();
-        }
-
-        private void Button_Click_2(object sender, RoutedEventArgs e)
-        {
-            //用MediaElement控件进行播放
-            McMediaElement.Source = new Uri(Environment.CurrentDirectory + "\\Music\\刷身份证登录页面倒计时卡死.mp4");
-            McMediaElement.Play();
-        }
     }
 }

@@ -3,12 +3,163 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-      xmlns:local="clr-namespace:CloundMusic2._0.Views"
+      xmlns:local="clr-namespace:CloundMusic2._0.Views" xmlns:i="http://schemas.microsoft.com/expression/2010/interactivity" xmlns:helpers1="clr-namespace:CloundMusic2._0.Helper"
       mc:Ignorable="d" 
       Height="570" Width="1020"
+      DataContext="{Binding Path=HomeViewModel, Source={StaticResource Locator}}" 
       Title="HomePage">
+    <i:Interaction.Triggers>
+        <i:EventTrigger EventName="Loaded">
+            <i:InvokeCommandAction Command="{Binding  Path=LoadCommand}">
+            </i:InvokeCommandAction>
+        </i:EventTrigger>
+        <i:EventTrigger EventName="Unloaded">
+            <i:InvokeCommandAction Command="{Binding  Path=UnLoadCommand}">
+            </i:InvokeCommandAction>
+        </i:EventTrigger>
+    </i:Interaction.Triggers>
+    <Page.Resources>
+        <Style x:Key="SearchTipLabel" TargetType="{x:Type Label}">
+            <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="Padding" Value="5"/>
+            <Setter Property="HorizontalContentAlignment" Value="Left"/>
+            <Setter Property="VerticalContentAlignment" Value="Center"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Label}">
+                        <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                                <Label Content="搜索 "/>
+                                <Label Content="{Binding KeyWord}" Foreground="#A8E4FA"/>
+                                <Label Content="，找到"/>
+                                <Label Content="{Binding SongCount}"/>
+                                <Label Content="首单曲"/>
+                            </StackPanel>
+                         </Border>
+                        <ControlTemplate.Triggers>
+                            <Trigger Property="IsEnabled" Value="false">
+                                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                            </Trigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
 
-    <Grid Height="570" Width="1020" >
-        
+    <Grid Height="570" Width="1020" Background="White" ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel Height="70" VerticalAlignment="Top">
+            <Label Height="70" Style="{DynamicResource SearchTipLabel}" Margin="30 0 0 0"/>
+        </StackPanel>
+        <Border CornerRadius="6"  Background="White" HorizontalAlignment="Center" Grid.Row="1"
+                Height="460" Width="1010">
+            <ListView ItemsSource="{Binding Songs}" Grid.Row="1" Height="460" Width="1010"
+                          HorizontalAlignment="Center" ItemContainerStyle="{StaticResource BookListViewItemStyle2}"   
+                          Style="{DynamicResource BookListViewStyle1}" 
+                          SelectedItem="{Binding SelectedSong,Mode=TwoWay}">
+                <i:Interaction.Triggers>
+                    <i:EventTrigger EventName="ManipulationBoundaryFeedback">
+                        <helpers1:MyEventCommand Command="{Binding SCManipulationBoundaryFeedback}"/>
+                    </i:EventTrigger>
+                    <i:EventTrigger EventName="MouseDoubleClick">
+                        <helpers1:MyEventCommand Command="{Binding PlaySelectedSongCommand}"/>
+                    </i:EventTrigger>
+                </i:Interaction.Triggers>
+                <ListView.View >
+                    <GridView AllowsColumnReorder="False"  >
+                        <GridViewColumn Header=""  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Label Content=""/>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+                        <GridViewColumn Header="操作"  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                    <Button/>
+                                    <Button/>
+                                        
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+
+                        <GridViewColumn Header="音乐标题"  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="250">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Label Content="{Binding Name}"/>
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+
+                        <GridViewColumn Header="歌手"  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Label Content=""/>
+
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+
+                        <GridViewColumn Header="专辑"  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                        <Label Content="{Binding Album.Name}"/>
+
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+
+                        <GridViewColumn Header="时长"  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                       
+
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+
+
+                        <GridViewColumn Header="热度"  HeaderContainerStyle="{StaticResource BookWhileHeaderCenter}"  
+                                                Width="100">
+                            <GridViewColumn.CellTemplate>
+                                <DataTemplate>
+                                    <Grid>
+                                       
+
+                                    </Grid>
+                                </DataTemplate>
+                            </GridViewColumn.CellTemplate>
+                        </GridViewColumn>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+        </Border>
     </Grid>
 </Page>

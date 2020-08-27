@@ -5,6 +5,186 @@
              xmlns:vm="clr-namespace:CloundMusic2._0.ViewModes"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <vm:ViewModelLocator x:Key="Locator"/>
+        <ResourceDictionary>
+            <vm:ViewModelLocator x:Key="Locator"/>
+            <Style x:Key="MuseHeaderStyle" TargetType="{x:Type Label}">
+                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Padding" Value="5"/>
+                <Setter Property="HorizontalContentAlignment" Value="Left"/>
+                <Setter Property="VerticalContentAlignment" Value="Center"/>
+                <Setter Property="Opacity" Value="0.5"/>
+                <Setter Property="Height" Value="30"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type Label}">
+                            <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" Padding="{TemplateBinding Padding}" SnapsToDevicePixels="true">
+                                <ContentPresenter HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" 
+                                              RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"
+                                              VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsEnabled" Value="false">
+                                    <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.GrayTextBrushKey}}"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="FocusVisual">
+                <Setter Property="Control.Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Rectangle Margin="2" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <SolidColorBrush x:Key="RadioButton.Static.Background" Color="#FFFFFFFF"/>
+            <SolidColorBrush x:Key="RadioButton.Static.Border" Color="#FF707070"/>
+            <Style x:Key="OptionMarkFocusVisual">
+                <Setter Property="Control.Template">
+                    <Setter.Value>
+                        <ControlTemplate>
+                            <Rectangle Margin="14,0,0,0" SnapsToDevicePixels="true" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" StrokeThickness="1" StrokeDashArray="1 2"/>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <SolidColorBrush x:Key="RadioButton.MouseOver.Background" Color="#FFF3F9FF"/>
+            <SolidColorBrush x:Key="RadioButton.MouseOver.Border" Color="#FF5593FF"/>
+            <SolidColorBrush x:Key="RadioButton.MouseOver.Glyph" Color="#FF212121"/>
+            <SolidColorBrush x:Key="RadioButton.Disabled.Background" Color="#FFE6E6E6"/>
+            <SolidColorBrush x:Key="RadioButton.Disabled.Border" Color="#FFBCBCBC"/>
+            <SolidColorBrush x:Key="RadioButton.Disabled.Glyph" Color="#FF707070"/>
+            <SolidColorBrush x:Key="RadioButton.Pressed.Background" Color="#FFD9ECFF"/>
+            <SolidColorBrush x:Key="RadioButton.Pressed.Border" Color="#FF3C77DD"/>
+            <SolidColorBrush x:Key="RadioButton.Pressed.Glyph" Color="#FF212121"/>
+            <SolidColorBrush x:Key="RadioButton.Static.Glyph" Color="#FF212121"/>
+            <Style x:Key="MuseRadioButtonStyle" TargetType="{x:Type RadioButton}">
+                <Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+                <Setter Property="Background" Value="{StaticResource RadioButton.Static.Background}"/>
+                <Setter Property="BorderBrush" Value="{StaticResource RadioButton.Static.Border}"/>
+                <Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+                <Setter Property="BorderThickness" Value="1"/>
+                <Setter Property="Height" Value="40"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type RadioButton}">
+                            <StackPanel x:Name="myStackPanel" Orientation="Horizontal" Background="#F5F5F7"
+                                    VerticalAlignment="Center">
+                                <Line x:Name="myLine" X1="1.5" Y1="0" X2="1.5" Y2="40" StrokeThickness="3" Stroke="#C62F2F" Visibility="Collapsed"/>
+                                <Image x:Name="myImage" Source="pack://siteoforigin:,,,/Views/Images/菱形.png" Opacity="0.6" Stretch="None"
+                                   Margin="15 0 0 0"/>
+                                <Label x:Name="myLabel" Content="{TemplateBinding Content}" Background="Transparent" VerticalAlignment="Center"
+                                   FontSize="16" Opacity="0.6" Margin="10 0 0 0"/>
+                            </StackPanel>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="HasContent" Value="true">
+                                    <Setter Property="FocusVisualStyle" Value="{StaticResource OptionMarkFocusVisual}"/>
+                                    <Setter Property="Padding" Value="4,-1,0,0"/>
+                                </Trigger>
+                                <Trigger Property="IsMouseOver" Value="true">
+                                    <Setter Property="Opacity" TargetName="myImage" Value="1"/>
+                                    <Setter Property="Opacity" TargetName="myLabel" Value="1"/>
+                                </Trigger>
+                                <Trigger Property="IsChecked" Value="true">
+                                    <Setter Property="Background" TargetName="myStackPanel" Value="#E6E7EA"/>
+                                    <Setter Property="Visibility" TargetName="myLine" Value="Visible"/>
+                                    <Setter Property="Opacity" TargetName="myImage" Value="1"/>
+                                    <Setter Property="Opacity" TargetName="myLabel" Value="1"/>
+                                </Trigger>
+                                <!--<Trigger Property="IsChecked" Value="{x:Null}">
+                                <Setter Property="Opacity" TargetName="optionMark" Value="0.56"/>
+                            </Trigger>-->
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+
+            <Style x:Key="BookListViewItemStyle2" TargetType="{x:Type ListViewItem}">
+                <Setter Property="HorizontalContentAlignment" Value="Stretch" />
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="Template" >
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListBoxItem}">
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <GridViewRowPresenter  VerticalAlignment="Center" Content="{TemplateBinding Content}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                                <Rectangle Grid.Row="1" Fill="#f3f3f3" Height="2" Margin="36,0"></Rectangle>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+
+            <Style x:Key="BookListViewStyle1" TargetType="{x:Type ListView}">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type ListView}">
+                            <Grid>
+                                <ScrollViewer Padding="{TemplateBinding Padding}" PanningMode="Both"
+                                          Style="{DynamicResource {x:Static GridView.GridViewScrollViewerStyleKey}}"
+                                          HorizontalScrollBarVisibility="Disabled" VerticalScrollBarVisibility="Auto">
+                                    <ItemsPresenter SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}"/>
+                                </ScrollViewer>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+
+            <Style x:Key="BookWhileHeaderCenter" TargetType="{x:Type GridViewColumnHeader}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="Padding" Value="0,12,0,12" />
+                <Setter Property="BorderThickness" Value="0" />
+                <Setter Property="HorizontalContentAlignment" Value="Left" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                            <Grid Background="{TemplateBinding Background}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <ContentPresenter Opacity="0.9" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                <Rectangle Fill="#ecf6ff" Height="5" Grid.Row="1"></Rectangle>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+
+            <Style x:Key="BookWhileHeader" TargetType="{x:Type GridViewColumnHeader}">
+                <Setter Property="Background" Value="Transparent"/>
+                <Setter Property="FontSize" Value="28"/>
+                <Setter Property="Padding" Value="0,12,0,12" />
+                <Setter Property="BorderThickness" Value="0" />
+                <Setter Property="HorizontalContentAlignment" Value="Left" />
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="{x:Type GridViewColumnHeader}">
+                            <Grid Background="{TemplateBinding Background}">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*"/>
+                                    <RowDefinition Height="auto"/>
+                                </Grid.RowDefinitions>
+                                <ContentPresenter Opacity="0.9" Margin="{TemplateBinding Padding}" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+                                <Rectangle Fill="#ecf6ff" Height="5" Grid.Row="1"></Rectangle>
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Test1.json" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CloundMusic2.0\CloundMusic2.0.csproj">

@@ -4,10 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
-        xmlns:local="clr-namespace:CloundMusic2._0"
+        xmlns:local="clr-namespace:CloundMusic2._0" xmlns:usercontrol="clr-namespace:CloundMusic2._0.UserControl"
         mc:Ignorable="d" x:Name="MainWindowViewModel"
-        Title="韬天乐界" Height="800" Width="1200" 
-         DataContext="{Binding Path=MainWindowViewModel, Source={StaticResource Locator}}">
+        Title="韬天乐界" Height="670" Width="1020"  MinHeight="670" MinWidth="1020" 
+        DataContext="{Binding Path=MainWindowViewModel, Source={StaticResource Locator}}" 
+        AllowsTransparency="True" WindowStyle="None" ResizeMode="NoResize" WindowState="Normal" >
+    <Window.Resources>
+
+    </Window.Resources>
     <i:Interaction.Triggers>
         <i:EventTrigger EventName="Loaded">
             <i:InvokeCommandAction Command="{Binding LoadCommand}">
@@ -18,23 +22,37 @@
             </i:InvokeCommandAction>
         </i:EventTrigger>
     </i:Interaction.Triggers>
-    <Viewbox>
-        <Grid  Width="1920" Height="1080">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="0.5*"/>
-                <ColumnDefinition Width="0.5*"/>
-            </Grid.ColumnDefinitions>
-            <TextBox Height="50" Width="300" Background="Yellow" VerticalAlignment="Top"/>
-            <Button Content="播放1" HorizontalAlignment="Right" Height="58" 
-                    VerticalAlignment="Top" Width="161" Command="{Binding SearchMusicCommand}"/>
-            <!--<local:RecordUserControl/>-->
-            <MediaElement Name="McMediaElement"  LoadedBehavior="Manual" Grid.Column="1" />
-
-            <Frame  Grid.Row="0" x:Name="MainFrame" NavigationUIVisibility="Hidden" JournalOwnership="UsesParentJournal" Grid.Column="1" Margin="10,10,-10,-10" />
-            <Button Content="播放1" HorizontalAlignment="Left" Height="58" Margin="148,1085,0,-63" 
-                    VerticalAlignment="Top" Width="161" Click="Button_Click_1"/>
-            <Button Content="播放2" HorizontalAlignment="Left" Height="58" Margin="431,1085,0,-63" 
-                    VerticalAlignment="Top" Width="161" Click="Button_Click_2"/>
+    <Grid Width="1020" Height="670" Background="#F5F5F7" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200*"/>
+            <ColumnDefinition Width="820*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="570*"/>
+            <RowDefinition Height="50*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0" Grid.ColumnSpan="2" Background="#C62F2F">
+            <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Left" Height="42" Orientation="Horizontal" Margin="20 0 0 0">
+                <Image Source="pack://siteoforigin:,,,/Views/Images/Logo/网易云logo.png" Stretch="None"/>
+                <Label Content="网易云音乐" FontSize="20" Foreground="#FFF7EDED"/>
+            </StackPanel>
+            <usercontrol:SearchUserControl ></usercontrol:SearchUserControl>
         </Grid>
-    </Viewbox>
+        <StackPanel Grid.Column="0" Grid.Row="1">
+            <Label Content="推荐" Style="{DynamicResource MuseHeaderStyle}"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="发现音乐" GroupName="MuseBT"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="私人FM" GroupName="MuseBT"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="LOOK直播" GroupName="MuseBT"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="视频" GroupName="MuseBT"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="朋友" GroupName="MuseBT"/>
+            <Label Content="我的音乐" Style="{DynamicResource MuseHeaderStyle}"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="本地音乐" GroupName="MuseBT"/>
+            <RadioButton Style="{DynamicResource MuseRadioButtonStyle}" Content="下载" GroupName="MuseBT"/>
+        </StackPanel>
+        <Frame Grid.Row="1" Grid.Column="1" x:Name="MainFrame" NavigationUIVisibility="Hidden" JournalOwnership="UsesParentJournal" />
+
+        <usercontrol:PlayerUserControl Grid.Row="2" Grid.ColumnSpan="2"/>
+        
+    </Grid>
 </Window>

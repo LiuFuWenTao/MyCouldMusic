@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\GitHub源码\MyCouldMusic\CloundMusic2.0\App.xaml
-2249364649
+5-636720348
 
-35-1742849329
-781139673654
-MainWindow.xaml;RecordUserControl.xaml;
+502086333035
+80-816336237
+MainWindow.xaml;UserControl\PlayerUserControl.xaml;UserControl\RecordUserControl.xaml;UserControl\SearchUserControl.xaml;Views\HomePage.xaml;
 
-True
+False
 

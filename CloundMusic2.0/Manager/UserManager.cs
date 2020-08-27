@@ -1,4 +1,5 @@
-﻿using CloundMusic2._0.Manager;
+﻿using CloundMusic2._0.CloudApi.IApi;
+using CloundMusic2._0.Manager;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,7 +13,7 @@ namespace CloundMusic2._0.Model
     /// </summary>
     public class UserManager:IUserManager
     {
-        private IUserApi serverUser = new ServerManagerFactory().BuildUserServerManager();
+        //private IUserApi serverUser = UserManagerFactory.Build();
         // public User currentUser;
         public UserManager()
         {

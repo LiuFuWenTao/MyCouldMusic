@@ -1,0 +1,1531 @@
+//{
+//  "data": [
+//    {
+//      "id": 1330348068,
+//      "url": "http://m8.music.126.net/20200824130834/d374a633689021e0b196cd5bf348ba6d/ymusic/0758/550f/545f/028d3b9421be8425d60dc57735cf6ebc.mp3",
+//      "br": 128000,
+//      "size": 5214920,
+//      "md5": "028d3b9421be8425d60dc57735cf6ebc",
+//      "code": 200,
+//      "expi": 1200,
+//      "type": "mp3",
+//      "gain": 0,
+//      "fee": 8,
+//      "uf": null,
+//      "payed": 0,
+//      "flag": 68,
+//      "canExtend": false,
+//      "freeTrialInfo": null,
+//      "level": "standard",
+//      "encodeType": "mp3"
+//    }
+//  ],
+//  "code": 200
+//}
+
+{
+  "result": {
+    "songs": [
+      {
+        "id": 1330348068,
+        "name": "起风了",
+        "artists": [
+          {
+            "id": 12085562,
+            "name": "买辣椒也用券",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 74715426,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1543766400000,
+          "size": 3,
+          "copyrightId": 1415923,
+          "status": 0,
+          "picId": 109951163699673360,
+          "mark": 0
+        },
+        "duration": 325868,
+        "copyrightId": 1415923,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 10782615,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 551339538,
+        "name": "起风了",
+        "artists": [
+          {
+            "id": 906077,
+            "name": "和楽器バンド",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 38274114,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1523548800007,
+          "size": 1,
+          "copyrightId": 457010,
+          "status": 1,
+          "picId": 109951163243167300,
+          "mark": 0
+        },
+        "duration": 248400,
+        "copyrightId": 457010,
+        "status": 0,
+        "alias": [ "动画《阴阳师平安物语》主题曲" ],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 1,
+        "rUrl": null,
+        "mark": 270464
+      },
+      {
+        "id": 1338695683,
+        "name": "起风了",
+        "artists": [
+          {
+            "id": 187229,
+            "name": "吴青峰",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 75116936,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1547136000000,
+          "size": 2,
+          "copyrightId": 1416018,
+          "status": 0,
+          "picId": 109951163785600030,
+          "alia": [ "电视剧《加油，你是最棒的》主题曲" ],
+          "mark": 0
+        },
+        "duration": 313565,
+        "copyrightId": 1416018,
+        "status": 0,
+        "alias": [ "电视剧《加油，你是最棒的》主题曲" ],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 10880673,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 1433421603,
+        "name": "起风了（片段版）（翻自 猫与少年） ",
+        "artists": [
+          {
+            "id": 34493156,
+            "name": "袁王月",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 86262504,
+          "name": "Demo",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1583484441444,
+          "size": 28,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164775480430,
+          "mark": 0
+        },
+        "duration": 30905,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1330346904,
+        "name": "起风了 (Acoustic)",
+        "artists": [
+          {
+            "id": 12085562,
+            "name": "买辣椒也用券",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 74715426,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1543766400000,
+          "size": 3,
+          "copyrightId": 1415923,
+          "status": 0,
+          "picId": 109951163699673360,
+          "mark": 0
+        },
+        "duration": 321592,
+        "copyrightId": 1415923,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 1385227380,
+        "name": "起风了",
+        "artists": [
+          {
+            "id": 187229,
+            "name": "吴青峰",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 81034994,
+          "name": "加油，你是最棒的 电视原声带",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1566230400000,
+          "size": 27,
+          "copyrightId": 1416018,
+          "status": 0,
+          "picId": 109951164308230500,
+          "mark": 0
+        },
+        "duration": 313565,
+        "copyrightId": 1416018,
+        "status": 0,
+        "alias": [ "电视剧《加油，你是最棒的》主题曲" ],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 10880673,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 8192
+      },
+      {
+        "id": 546715850,
+        "name": "起风了 (翻自 买辣椒也用券) ",
+        "artists": [
+          {
+            "id": 13642178,
+            "name": "大神慧",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 37991041,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1519747200000,
+          "size": 1,
+          "copyrightId": 17003,
+          "status": 0,
+          "picId": 109951163201528320,
+          "mark": 0
+        },
+        "duration": 209245,
+        "copyrightId": 1416266,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1340175443,
+        "name": "起风了（原始版）（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 12038016,
+            "name": "李瑨瑶",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 38537920,
+          "name": "纸短情长（抖音）",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1525276800000,
+          "size": 29,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951163280459260,
+          "mark": 0
+        },
+        "duration": 328210,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 262144
+      },
+      {
+        "id": 1331370623,
+        "name": "起风了(治愈男版)（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 12291202,
+            "name": "陈曦",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 35881076,
+          "name": "起风了(抖音男版)",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1501755029273,
+          "size": 6,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951162992334110,
+          "mark": 0
+        },
+        "duration": 313283,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1431915849,
+        "name": "起风了（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 34290841,
+            "name": "马越敏",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 86596967,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1584525155431,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164815173230,
+          "mark": 0
+        },
+        "duration": 34898,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1403061961,
+        "name": "起风了（钢琴版）（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 12373982,
+            "name": "璃子Akiko",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 82121747,
+          "name": "Pop Piano Cover II",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1570103307283,
+          "size": 11,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164495916800,
+          "mark": 0
+        },
+        "duration": 261947,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 866062997,
+        "name": "起风了remix",
+        "artists": [
+          {
+            "id": 12904290,
+            "name": "王恩信Est",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 12923493,
+            "name": "二胖u",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 71784153,
+          "name": "起风了remix",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1531411200000,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951163405730140,
+          "mark": 0
+        },
+        "duration": 234500,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 64
+      },
+      {
+        "id": 1338695698,
+        "name": "起风了 (伴奏)",
+        "artists": [
+          {
+            "id": 187229,
+            "name": "吴青峰",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 75116936,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1547136000000,
+          "size": 2,
+          "copyrightId": 1416018,
+          "status": 0,
+          "picId": 109951163785600030,
+          "alia": [ "电视剧《加油，你是最棒的》主题曲" ],
+          "mark": 0
+        },
+        "duration": 313565,
+        "copyrightId": 1416018,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 139264
+      },
+      {
+        "id": 1399105011,
+        "name": "起风了 (Live)",
+        "artists": [
+          {
+            "id": 13080644,
+            "name": "陈泽鑫",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 82700869,
+          "name": "嗨唱转起来 第2期",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1571932800000,
+          "size": 8,
+          "copyrightId": 1416486,
+          "status": 0,
+          "picId": 109951164445797900,
+          "mark": 0
+        },
+        "duration": 104629,
+        "copyrightId": 1416486,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1378085616,
+        "name": "起风了（日语治愈版）(cover 高橋優)（翻自 神谷浩史） ",
+        "artists": [
+          {
+            "id": 12306430,
+            "name": "邓壬鑫",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 38792486,
+          "name": "抖音歌曲最新 纯乐集",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1526428800000,
+          "size": 50,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951163696683950,
+          "mark": 0
+        },
+        "duration": 282475,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1470616802,
+        "name": "起风了（翻自 买辣椒也用券）",
+        "artists": [
+          {
+            "id": 34313878,
+            "name": "沛鸿",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 0,
+            "name": "穆清",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 0,
+            "name": "阿鹿",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 0,
+            "name": "灼染",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 93813213,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1597282274956,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951165230212800,
+          "mark": 0
+        },
+        "duration": 314226,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 128
+      },
+      {
+        "id": 1330346841,
+        "name": "起风了 (伴奏)",
+        "artists": [
+          {
+            "id": 12085562,
+            "name": "买辣椒也用券",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 74715426,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1543766400000,
+          "size": 3,
+          "copyrightId": 1415923,
+          "status": 0,
+          "picId": 109951163699673360,
+          "mark": 0
+        },
+        "duration": 325868,
+        "copyrightId": 1415923,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 139264
+      },
+      {
+        "id": 1428985403,
+        "name": "起风了（治愈男声版）（翻自 蒙面哥） ",
+        "artists": [
+          {
+            "id": 30905378,
+            "name": "浮梦",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 86288311,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1583570226186,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164778720270,
+          "mark": 0
+        },
+        "duration": 323591,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1385697507,
+        "name": "起风了（翻自 买辣椒也用券）",
+        "artists": [
+          {
+            "id": 28066477,
+            "name": "澪恩Seiwen",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 81069668,
+          "name": "起风了（女生版）",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1566394611571,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164311813250,
+          "mark": 0
+        },
+        "duration": 306665,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 546043427,
+        "name": "起风了（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 12157198,
+            "name": "麓七",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 37965019,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1521268619952,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951163193412880,
+          "mark": 0
+        },
+        "duration": 310958,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1438826287,
+        "name": "起风了(Au男声版)（翻自 买辣椒也用券）",
+        "artists": [
+          {
+            "id": 34663712,
+            "name": "仇远旭",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 87756853,
+          "name": "故事到此为止",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1586315573018,
+          "size": 11,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164883170020,
+          "mark": 0
+        },
+        "duration": 330144,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1375966816,
+        "name": "起风了【中日双语】（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 12077139,
+            "name": "Will",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 80189972,
+          "name": "起风了【双语】",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1562235640759,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164192734910,
+          "mark": 0
+        },
+        "duration": 322011,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1433023789,
+        "name": "起风了（翻自 群星） ",
+        "artists": [
+          {
+            "id": 1145026,
+            "name": "小石头和孩子们",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 86725980,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1584864523821,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164827753540,
+          "mark": 0
+        },
+        "duration": 106858,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1453837093,
+        "name": "起风了（抖音片段）（翻自 买辣椒也用券）",
+        "artists": [
+          {
+            "id": 34827109,
+            "name": "胡沫",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 88626515,
+          "name": "胡沫短视频翻唱集",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1588084507136,
+          "size": 46,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164946942420,
+          "mark": 0
+        },
+        "duration": 30511,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 128
+      },
+      {
+        "id": 1320590046,
+        "name": "起风了（翻自 高橋優） ",
+        "artists": [
+          {
+            "id": 29999237,
+            "name": "丫蛋蛋",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          {
+            "id": 12275389,
+            "name": "沈虫虫",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 74074024,
+          "name": "起风了-cover高橋優",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1540525263914,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951163626052480,
+          "mark": 0
+        },
+        "duration": 230649,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1416817463,
+        "name": "起风了(纯钢琴版)（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 33018111,
+            "name": "浅绯色的喵",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 81018007,
+          "name": "浅浅的音乐故事",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p2.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1566288747269,
+          "size": 20,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164927740320,
+          "mark": 0
+        },
+        "duration": 121104,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 10911572,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 131072
+      },
+      {
+        "id": 544151869,
+        "name": "起风了",
+        "artists": [
+          {
+            "id": 817036,
+            "name": "蒙面哥",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 37873542,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1520611200000,
+          "size": 2,
+          "copyrightId": 17003,
+          "status": 0,
+          "picId": 109951163187502100,
+          "mark": 0
+        },
+        "duration": 313222,
+        "copyrightId": 1416266,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 8,
+        "rUrl": null,
+        "mark": 65536
+      },
+      {
+        "id": 1399590403,
+        "name": "起风了（原唱:吴青峰）（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 33203567,
+            "name": "陈以轩",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 82783666,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1572192623233,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164453509950,
+          "mark": 0
+        },
+        "duration": 317521,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1406713308,
+        "name": "起风了（翻自 买辣椒也用券） ",
+        "artists": [
+          {
+            "id": 10089,
+            "name": "司夏",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 83734001,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1575033166074,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951164517933460,
+          "mark": 0
+        },
+        "duration": 314618,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 0
+      },
+      {
+        "id": 1465512020,
+        "name": "起风了（翻自 高橋優）",
+        "artists": [
+          {
+            "id": 33134465,
+            "name": "宁子卓",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          }
+        ],
+        "album": {
+          "id": 92753792,
+          "name": "起风了",
+          "artist": {
+            "id": 0,
+            "name": "",
+            "picUrl": null,
+            "alias": [],
+            "albumSize": 0,
+            "picId": 0,
+            "img1v1Url": "https://p1.music.126.net/6y-UleORITEDbvrOLV0Q8A==/5639395138885805.jpg",
+            "img1v1": 0,
+            "trans": null
+          },
+          "publishTime": 1595646741293,
+          "size": 1,
+          "copyrightId": 0,
+          "status": 0,
+          "picId": 109951165168167200,
+          "mark": 0
+        },
+        "duration": 308005,
+        "copyrightId": 0,
+        "status": 0,
+        "alias": [],
+        "rtype": 0,
+        "ftype": 0,
+        "mvid": 0,
+        "fee": 0,
+        "rUrl": null,
+        "mark": 128
+      }
+    ],
+    "hasMore": true,
+    "songCount": 600
+  },
+  "code": 200
+}

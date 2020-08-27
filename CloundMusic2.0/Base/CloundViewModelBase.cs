@@ -1,4 +1,5 @@
-﻿using GalaSoft.MvvmLight;
+﻿using CloundMusic2._0.Helper;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
@@ -67,11 +68,34 @@ namespace CloundMusic2._0.Base
             private set
             { }
         }
+
+        private MyCommand<ManipulationBoundaryFeedbackEventArgs> sCManipulationBoundaryFeedback = null;
+        /// <summary>
+        /// 处理操纵边界反馈bug
+        /// </summary>
+        public MyCommand<ManipulationBoundaryFeedbackEventArgs> SCManipulationBoundaryFeedback
+        {
+            get
+            {
+                if (this.sCManipulationBoundaryFeedback == null)
+                {
+                    this.sCManipulationBoundaryFeedback = new MyCommand<ManipulationBoundaryFeedbackEventArgs>((e) =>
+                    {
+                        if (e == null)
+                        {
+                            return;
+                        }
+                        e.Handled = true;
+                    });
+                }
+                return this.sCManipulationBoundaryFeedback;
+            }
+        }
         #endregion
 
         #region 保护方法
         #endregion
-        
+
 
         #region 抽象方法
         /// <summary>

@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<log>
+  <LogAssembly>Invengo.Library.Log4Net</LogAssembly>
+  <LogType>Invengo.Library.Log4Net.Log4NetLog</LogType>
+</log>
