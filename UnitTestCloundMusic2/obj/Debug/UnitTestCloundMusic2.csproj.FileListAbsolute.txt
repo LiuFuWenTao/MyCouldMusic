@@ -30,3 +30,8 @@ E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\obj\Debug\UnitTestCloundMusic2
 E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\obj\Debug\UnitTestCloundMusic2.csproj.CopyComplete
 E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\obj\Debug\UnitTestCloundMusic2.dll
 E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\obj\Debug\UnitTestCloundMusic2.pdb
+E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\bin\Debug\UnitTestCloundMusic2.dll.config
+E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\bin\Debug\Castle.Core.dll
+E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\bin\Debug\Lierda.WPFHelper.dll
+E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\bin\Debug\Castle.Core.xml
+E:\GitHub源码\MyCouldMusic\UnitTestCloundMusic2\bin\Debug\Lierda.WPFHelper.xml

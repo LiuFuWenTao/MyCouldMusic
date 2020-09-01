@@ -1,5 +1,6 @@
 ﻿using CloudMusic.CloudApi.IApi;
 using CloundMusic2._0.CloudApi.IApi;
+using CloundMusic2._0.Helper;
 using CloundMusic2._0.Model;
 using Newtonsoft.Json;
 using System;
@@ -24,11 +25,12 @@ namespace CloundMusic2._0.Manager
         public virtual Song[] SearchMusic(string keyword){
             //通过这个接口来处理代码
             var reslut = InvokeAsyncTask(_musicServer.SearchMusic(keyword));
-            //TODO 不过解析这快的代码我想抽取出去
-            HttpSongBase httpSong = JsonConvert.DeserializeObject<HttpSongBase>(reslut);
-            if(httpSong.Code == 200)
+            //由解析者去做解析，出错也由它自己处理，这样这边的逻辑简单些
+            HttpSongBase httpSong = JsonStringToObject.DeserializeObject<HttpSongBase>(reslut);
+            //数据校验过程
+            if(httpSong==null|| httpSong.Code != 200)
             {
-                //属于正常情况
+                //属于异常情况情况
             }
             return httpSong.Result.Songs;
         }
@@ -36,11 +38,11 @@ namespace CloundMusic2._0.Manager
         public virtual string GetSongUrl(string id)
         {
             var reslut = InvokeAsyncTask(_musicServer.GetSongUrl(id));
-            //TODO 不过解析这快的代码我想抽取出去
-            HttpSongResponse songData = JsonConvert.DeserializeObject<HttpSongResponse>(reslut);
-            if (songData.Code == 200)
+            //由解析者去做解析，出错也由它自己处理，这样这边的逻辑简单些
+            HttpSongResponse songData = JsonStringToObject.DeserializeObject<HttpSongResponse>(reslut);
+            if (songData == null || songData.Code != 200)
             {
-                //属于正常情况
+                //属于异常情况情况
             }
             //TODO  还有一块对数据的判断是否合理的代码
             return songData.Data[0].Url;

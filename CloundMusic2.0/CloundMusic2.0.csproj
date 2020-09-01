@@ -49,6 +49,9 @@
     <Reference Include="Invengo.Library.ILog">
       <HintPath>..\Lib\Invengo.Library.ILog.dll</HintPath>
     </Reference>
+    <Reference Include="Lierda.WPFHelper, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cbb49eab16984ff2, processorArchitecture=MSIL">
+      <HintPath>..\packages\Lierda.WPFHelper.1.0.3\lib\net461\Lierda.WPFHelper.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.1.0.0\lib\netstandard1.1\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
     </Reference>
@@ -99,6 +102,7 @@
     <Compile Include="Factroy\UserManagerFactory.cs" />
     <Compile Include="Helper\FindControlHelper.cs" />
     <Compile Include="Helper\HttpJsonStringToObject.cs" />
+    <Compile Include="Helper\JsonStringToObject.cs" />
     <Compile Include="Helper\Logger.cs" />
     <Compile Include="CloudApi\IApi\IMusicManager.cs" />
     <Compile Include="CloudApi\IApi\IUserManager.cs" />
@@ -200,7 +204,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="MusicCash\" />
-    <Folder Include="Util\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Views\Images\SingerImg\不知名歌手.jpg" />

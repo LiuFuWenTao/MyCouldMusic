@@ -107,7 +107,7 @@ namespace CloundMusic2._0.UserControl
             {
                 while (true)
                 {
-                    Thread.Sleep(1000);
+                    Thread.Sleep(2000);
                     Application.Current.Dispatcher.Invoke(() =>
                     {
                         timelineSlider.Value = myMediaElement.Position.TotalMilliseconds;

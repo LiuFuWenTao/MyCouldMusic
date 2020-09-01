@@ -92,3 +92,6 @@ E:\GitHub源码\MyCouldMusic\CloundMusic2.0\obj\Debug\CloundMusic2.0.csproj.Core
 E:\GitHub源码\MyCouldMusic\CloundMusic2.0\obj\Debug\CloundMusic2.0.csproj.CopyComplete
 E:\GitHub源码\MyCouldMusic\CloundMusic2.0\bin\Debug\Castle.Core.dll
 E:\GitHub源码\MyCouldMusic\CloundMusic2.0\bin\Debug\Castle.Core.xml
+E:\GitHub源码\MyCouldMusic\CloundMusic2.0\obj\Debug\CloundMusic2.0.csprojAssemblyReference.cache
+E:\GitHub源码\MyCouldMusic\CloundMusic2.0\bin\Debug\Lierda.WPFHelper.dll
+E:\GitHub源码\MyCouldMusic\CloundMusic2.0\bin\Debug\Lierda.WPFHelper.xml

@@ -26,6 +26,8 @@ namespace CloundMusic2._0.Interceptor
             {
                 argumentsName += a.ToString()+"/";
             }
+            Logger.Debug("");
+            Logger.Debug(""); 
             Logger.Debug("------开始运行某个方法------");
             Logger.Debug(string.Format("日志记录：运行的方法名是{0}", invocation.Method.Name));
             Logger.Debug(string.Format("日志记录：运行方法参数分别是{0}", argumentsName));
@@ -33,7 +35,7 @@ namespace CloundMusic2._0.Interceptor
             {
                 //执行方法
                 invocation.Proceed();
-                Logger.Debug(string.Format("运行的方法{0}正常结束未报错", invocation.Method.Name));
+                Logger.Debug(string.Format("运行的方法{0}正常结束", invocation.Method.Name));
             }
             catch (Exception e)
             {

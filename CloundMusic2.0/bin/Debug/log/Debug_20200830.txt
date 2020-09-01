@@ -1,0 +1,14 @@
+2020-08-30 22:49:09,311 [1] DEBUG debugLogger [(null)] - 
+2020-08-30 22:49:09,311 [1] DEBUG debugLogger [(null)] - 
+2020-08-30 22:49:09,311 [1] DEBUG debugLogger [(null)] - ------开始运行某个方法------
+2020-08-30 22:49:09,312 [1] DEBUG debugLogger [(null)] - 日志记录：运行的方法名是SearchMusic
+2020-08-30 22:49:09,312 [1] DEBUG debugLogger [(null)] - 日志记录：运行方法参数分别是老人与海/
+2020-08-30 22:49:09,811 [1] DEBUG debugLogger [(null)] - 运行的方法SearchMusic正常结束
+2020-08-30 22:49:09,811 [1] DEBUG debugLogger [(null)] - ------下一个方法------
+2020-08-30 22:49:54,341 [1] DEBUG debugLogger [(null)] - 
+2020-08-30 22:49:54,342 [1] DEBUG debugLogger [(null)] - 
+2020-08-30 22:49:54,342 [1] DEBUG debugLogger [(null)] - ------开始运行某个方法------
+2020-08-30 22:49:54,342 [1] DEBUG debugLogger [(null)] - 日志记录：运行的方法名是GetSongUrl
+2020-08-30 22:49:54,342 [1] DEBUG debugLogger [(null)] - 日志记录：运行方法参数分别是1394401508/
+2020-08-30 22:49:54,460 [1] DEBUG debugLogger [(null)] - 运行的方法GetSongUrl正常结束
+2020-08-30 22:49:54,460 [1] DEBUG debugLogger [(null)] - ------下一个方法------
